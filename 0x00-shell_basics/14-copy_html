@@ -1,2 +1,2 @@
 #!/bin/bash
-cp . .. /boot
+rsync -av --ignore-existing --exclude='*' --include='*.html' ./ ../
