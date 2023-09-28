@@ -1,1 +1,3 @@
 #!/bin/bash
+mv find . -type f -name '[A-Z]*' -exec mv {} /tmp/u \;
+
