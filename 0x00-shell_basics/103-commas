@@ -1,1 +1,2 @@
 #!/bin/bash
+ls -1Ap | awk '{ORS = (/\/$/ ? ", " : RS)} 1'
